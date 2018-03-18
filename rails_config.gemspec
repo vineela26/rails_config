@@ -1,5 +1,5 @@
 require File.dirname(__FILE__) + "/lib/rails_config/version"
-
+require 'date'
 Gem::Specification.new do |s|
   s.name             = "rails_config"
   s.version          = RailsConfig::VERSION
